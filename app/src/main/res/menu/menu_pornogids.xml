@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/gids_filter"
+        android:icon="@drawable/ic_baseline_filter_list_24"
+        android:title="Lọc video"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/gids_filter_new"
+                android:title="Mới cập nhật" />
+            <item
+                android:id="@+id/gids_filter_popular"
+                android:title="Phổ biến nhất" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/act_search_gids"
+        android:icon="@drawable/ic_search"
+        android:title="Tìm kiếm"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        tools:ignore="AlwaysShowAction" />
+
+</menu>

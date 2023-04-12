@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bot_hdtube_video"
+        android:icon="@drawable/ic_nav_movie"
+        android:title="Videos" />
+    <item
+        android:id="@+id/bot_hdtube_category"
+        android:icon="@drawable/ic_nav_category"
+        android:title="Categories" />
+    <item
+        android:id="@+id/bot_hdtube_tag"
+        android:icon="@drawable/ic_photo"
+        android:title="Tags" />
+    <item
+        android:id="@+id/bot_hdtube_model"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Models" />
+</menu>

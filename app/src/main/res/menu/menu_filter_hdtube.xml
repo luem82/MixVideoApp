@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/filter_hdtube_latest"
+        android:title="Latest Update" />
+    <item
+        android:id="@+id/filter_hdtube_rated"
+        android:title="Top Rated" />
+    <item
+        android:id="@+id/filter_hdtube_year"
+        android:title="Top Year" />
+    <item
+        android:id="@+id/filter_hdtube_popular"
+        android:title="Most Popular" />
+</menu>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/video_add_favorite"
+        android:icon="@drawable/ic_nav_favorite"
+        android:title="Thêm vào lưu trữ" />
+    <item
+        android:id="@+id/video_download"
+        android:icon="@drawable/ic_download"
+        android:title="Tải xuống video" />
+    <item
+        android:id="@+id/video_info_detail"
+        android:icon="@drawable/ic_preview"
+        android:title="Thông tin chi tiết" />
+    <item
+        android:id="@+id/video_related"
+        android:icon="@drawable/ic_duration"
+        android:title="Video liên quan" />
+</menu>

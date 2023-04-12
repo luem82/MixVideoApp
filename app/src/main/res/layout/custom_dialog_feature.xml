@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardCornerRadius="@dimen/_4sdp"
+    app:contentPadding="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_lock"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="Khóa màn hình"
+                android:textAllCaps="false"
+                android:textColor="@color/red"
+                app:icon="@drawable/ic_nav_lock"
+                app:iconGravity="top"
+                app:iconTint="@color/red" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_mute"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="Tắt âm thanh"
+                android:textAllCaps="false"
+                android:textColor="@color/red"
+                app:icon="@drawable/ic_baseline_volume_off_24"
+                app:iconGravity="top"
+                app:iconTint="@color/red" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_pip"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="PIP"
+                android:textAllCaps="false"
+                android:textColor="@color/teal_700"
+                app:icon="@drawable/ic_baseline_picture_in_picture_alt_24"
+                app:iconGravity="top"
+                app:iconTint="@color/teal_700" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_night"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="Ban đêm"
+                android:textAllCaps="false"
+                android:textColor="@color/teal_700"
+                app:icon="@drawable/ic_baseline_nights_stay_24"
+                app:iconGravity="top"
+                app:iconTint="@color/teal_700" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_quality"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="Chất lượng"
+                android:textAllCaps="false"
+                android:textColor="@color/teal_700"
+                app:icon="@drawable/ic_baseline_high_quality_24"
+                app:iconGravity="top"
+                app:iconTint="@color/teal_700" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_sound"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="Âm lượng"
+                android:textAllCaps="false"
+                android:textColor="@color/teal_700"
+                app:icon="@drawable/ic_baseline_volume_down_24"
+                app:iconGravity="top"
+                app:iconTint="@color/teal_700" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_brightness"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="Độ sáng"
+                android:textAllCaps="false"
+                android:textColor="@color/teal_700"
+                app:icon="@drawable/ic_baseline_wb_sunny_24"
+                app:iconGravity="top"
+                app:iconTint="@color/teal_700" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_speed"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="Tốc độ"
+                android:textAllCaps="false"
+                android:textColor="@color/teal_700"
+                app:icon="@drawable/ic_baseline_slow_motion_video_24"
+                app:iconGravity="top"
+                app:iconTint="@color/teal_700" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_viet"
+            android:icon="@drawable/ic_nav_movie"
+            android:title="@string/str_nav_viet" />
+        <item
+            android:id="@+id/nav_en"
+            android:icon="@drawable/ic_nav_movie"
+            android:title="@string/str_nav_en" />
+        <item
+            android:id="@+id/nav_tran"
+            android:icon="@drawable/ic_nav_movie"
+            android:title="@string/str_nav_tran" />
+        <item
+            android:id="@+id/nav_ani"
+            android:icon="@drawable/ic_nav_movie"
+            android:title="@string/str_nav_ani" />
+        <item
+            android:id="@+id/nav_cuto"
+            android:icon="@drawable/ic_nav_movie"
+            android:title="@string/str_nav_cuto" />
+        <item
+            android:id="@+id/nav_les8"
+            android:icon="@drawable/ic_nav_movie"
+            android:title="@string/str_nav_les8" />
+        <item
+            android:id="@+id/nav_allxinfo"
+            android:icon="@drawable/ic_nav_movie"
+            android:title="@string/str_nav_allxinfo" />
+        <item
+            android:id="@+id/nav_pornogids"
+            android:icon="@drawable/ic_nav_movie"
+            android:title="PornoGids" />
+        <item
+            android:id="@+id/nav_xvideos98"
+            android:icon="@drawable/ic_nav_movie"
+            android:title="XVideos98" />
+        <item
+            android:id="@+id/nav_hdtube"
+            android:icon="@drawable/ic_nav_movie"
+            android:title="HD Tube Porn" />
+        <item
+            android:id="@+id/nav_cate"
+            android:icon="@drawable/ic_nav_category"
+            android:title="@string/str_nav_cate" />
+        <item
+            android:id="@+id/nav_album"
+            android:icon="@drawable/ic_nav_album"
+            android:title="@string/str_nav_album" />
+        <item
+            android:id="@+id/nav_audio"
+            android:icon="@drawable/ic_nav_audio"
+            android:title="@string/str_nav_audio" />
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="@string/str_nav_other">
+            <menu>
+                <item
+                    android:id="@+id/nav_favorite"
+                    android:icon="@drawable/ic_nav_favorite"
+                    android:title="@string/str_nav_favo" />
+                <item
+                    android:id="@+id/nav_history"
+                    android:icon="@drawable/ic_nav_history"
+                    android:title="@string/str_nav_history" />
+                <item
+                    android:id="@+id/nav_lock"
+                    android:icon="@drawable/ic_nav_lock"
+                    android:title="@string/str_nav_lock" />
+            </menu>
+        </item>
+    </group>
+</menu>

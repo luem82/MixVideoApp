@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".allxinfo.AllXInfoActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_constraintBottom_toTopOf="@id/more_hori_scroll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="@string/str_nav_allxinfo"
+        app:titleTextAppearance="@style/RobotoTextViewStyle" />
+
+    <!--    <com.google.android.material.tabs.TabLayout-->
+    <!--        android:id="@+id/tab_layout"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="@color/purple_700"-->
+    <!--        android:paddingHorizontal="@dimen/_8sdp"-->
+    <!--        app:layout_constraintBottom_toTopOf="@id/view_pager"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/tool_bar"-->
+    <!--        app:tabGravity="fill"-->
+    <!--        app:tabIndicator="@drawable/tab_layout_indicator"-->
+    <!--        app:tabIndicatorAnimationMode="elastic"-->
+    <!--        app:tabIndicatorColor="@null"-->
+    <!--        app:tabIndicatorGravity="stretch"-->
+    <!--        app:tabMode="auto"-->
+    <!--        app:tabSelectedTextColor="@color/purple_700"-->
+    <!--        app:tabTextAppearance="@style/CustomTextAppearanceTab"-->
+    <!--        app:tabTextColor="@color/white" />-->
+
+    <HorizontalScrollView
+        android:id="@+id/more_hori_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:paddingHorizontal="@dimen/_8sdp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toTopOf="@id/view_pager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tool_bar">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/more_chip_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:selectionRequired="true"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chi_new"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Mới Cập Nhật"
+                android:textColor="@color/text_color_chip_state_list"
+                app:chipBackgroundColor="@color/background_color_chip_state_list" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_popular"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phổ Biến Nhất"
+                android:textColor="@color/text_color_chip_state_list"
+                app:chipBackgroundColor="@color/background_color_chip_state_list" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_rated"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bình Chọn Cao"
+                android:textColor="@color/text_color_chip_state_list"
+                app:chipBackgroundColor="@color/background_color_chip_state_list" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_category"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thể Loại Hay"
+                android:textColor="@color/text_color_chip_state_list"
+                app:chipBackgroundColor="@color/background_color_chip_state_list" />
+        </com.google.android.material.chip.ChipGroup>
+    </HorizontalScrollView>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/more_hori_scroll" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

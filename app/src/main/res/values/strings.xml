@@ -1,0 +1,69 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">TV-69 </string>
+    <string name="str_search">Tìm kiếm</string>
+    <string name="str_open">open</string>
+    <string name="str_close">close</string>
+    <string name="str_text_2">Xem phim giải trí</string>
+    <string name="str_text_1">TV-69</string>
+    <string name="str_nav_viet">Phim Việt Nam</string>
+    <string name="str_nav_en">Phim Âu-Mỹ</string>
+    <string name="str_nav_tran">Phim Chuyển Giới</string>
+    <string name="str_nav_ani">Phim Thú Vật</string>
+    <string name="str_nav_other">Tùy Chọn Cá Nhân</string>
+    <string name="str_nav_favo">Danh Sách Yêu Thích</string>
+    <string name="str_nav_history">Lịch Sử Đã Xem</string>
+    <string name="str_nav_lock">Đặt Mật Mã(Khóa Trẻ Em)</string>
+    <string name="passcode_correct">Mật Mã Trùng Khớp</string>
+    <string name="passcode_enter">Nhập Mật Mã</string>
+    <string name="passcode_wrong">Mật Mã Không Đúng</string>
+    <string name="str_pass_message">Nhập vào ô mật mã để khóa trẻ em vào ứng dụng.</string>
+    <string name="off_passcod">Tắt Khóa Trẻ Em</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_chip_new">Mới Nhất</string>
+    <string name="str_chip_popular">Phổ Biến</string>
+    <string name="str_chip_rating">Bình Chọn</string>
+    <string name="str_play">Play</string>
+    <string name="str_preview">Preview</string>
+    <string name="str_fav_title">Yêu Thích</string>
+    <string name="str_fav_message">Bạn có muốn lưu video này vào danh sách yêu thích hay không ?</string>
+    <string name="str_save">Lưu</string>
+    <string name="str_cancel">Hủy</string>
+    <string name="str_dow_title">Tải Xuống Video</string>
+    <string name="str_dow_message">Bạn muốn tải xuống video preview hay video đầy đủ ?</string>
+    <string name="str_short">Preview</string>
+    <string name="str_full">Đầy đủ</string>
+    <string name="str_clear_favorite">Xóa hết danh sách yêu thích</string>
+    <string name="str_clear_history">Xóa hết lịch sử đã xem</string>
+    <string name="str_empty_hitory">Không có lịch sử xem</string>
+    <string name="str_empty_favorite">Không có video yêu thích</string>
+    <string name="str_search_favorite">Tìm kiếm video yêu thích</string>
+    <string name="str_search_history">Tìm kiếm video đã xem</string>
+    <string name="str_nav_cate">Thể Loại Phổ Biến</string>
+    <string name="str_cate_ani">Thú Vật</string>
+    <string name="str_cate_tran">Chuyễn Giới</string>
+    <string name="str_cate_en">Âu - Mỹ</string>
+    <string name="str_cate_viet">Việt Nam</string>
+    <string name="str_audio">Nghe Audio Truyện</string>
+    <string name="str_nav_audio">Nghe Truyện Audio</string>
+    <string name="str_nav_album">Hình Ảnh Tuyển Chọn</string>
+    <string name="str_download_photo">Tải Xuống Hình Ảnh</string>
+    <string name="str_slide_photo">Trình Chiếu</string>
+    <string name="stop_auto_slide">Dừng Trình Chiếu</string>
+    <string name="str_nav_cuto">SexCuTo</string>
+    <string name="str_cuto_video">Phim Hay</string>
+    <string name="str_cuto_category">Thể Loại</string>
+    <string name="str_cuto_cate_label">Tất Cả Thể Loại</string>
+    <string name="str_nav_les8">Đồng Tính Nữ</string>
+    <string name="str_les_album">Hình Ảnh</string>
+    <string name="str_full_video">Xem Video Đầy Đủ</string>
+    <string name="str_screenshots">Screenshots</string>
+    <string name="str_empty_screenshot">Not screenshot</string>
+    <string name="str_nav_allxinfo">All-X-Info Tube</string>
+
+
+    <string name="exo_track_resolution_pixel"><xliff:g example="768" id="height">%1$dp</xliff:g></string>
+    <string name="qualitySelector">Select Quality</string>
+    <string name="str_nav_eporner">Eporner</string>
+</resources>
